@@ -1,0 +1,189 @@
+
+/* Navigation */
+.container {
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.row {
+	padding: 0!important;
+	margin: 0!important;
+}
+
+.gallery h1 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 20rem;
+	color: #445866;
+}
+
+.contact {
+	height: 100vh;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	padding-top: 5rem;
+	text-align: center;
+	color: #507E9E;
+}
+
+.navi a {
+	color: #507E9E;
+}
+
+.navi a:hover {
+	color: #DA721B;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+}
+
+
+.navi {
+	position: fixed;
+	float: left;
+	width: 33%;
+	z-index: 1;
+}
+
+.gallery {
+	width: 67%;
+	float: right;
+	padding: 0 2rem;
+	background-color: #D9C3CE;
+}
+
+.img_card {
+	width: 100%;
+	margin: 2rem 0;
+	background-color: white;
+	height: auto;
+	box-shadow: -5px 5px 10px grey;
+}
+
+#photo {
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.img_card p {
+	margin: 2rem 2.3rem 0 2.3rem;
+	padding-bottom: 2rem;
+	text-align: left;
+}
+
+.plus {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	opacity: 0.5;
+	margin-top: -5rem;
+	margin-left: 2rem;
+}
+
+#bio {
+	font-size: 1.5rem;
+	padding: 4rem 4rem;
+	text-align: center;
+}
+
+#contact_text {
+	text-align: left;
+	font-family: 'Slabo 27px', serif;
+	font-size: 2rem;
+}
+
+#about_header {
+	margin: 10rem 3rem -16rem 3rem;
+}
+
+#about_text {
+	margin: 0rem 3rem 0rem 3rem;
+	font-size: 2rem;
+	text-align: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+	h3 {
+		padding-top: 1rem;
+	}
+	.navi {
+		background-color: white;
+		width: 100%;
+		height: 15rem;
+	}
+
+	.gallery {
+		width: 100%;
+		clear: both;
+		margin-top: 15rem;
+	}
+
+	#bio {
+		display: none;
+	}
+
+	#contact_header {
+	margin: 10rem 3rem 3rem 3rem;
+	}
+
+	#contact_text {
+		margin: 0rem 3rem 3rem 3rem;
+	}
+
+	.plus {
+		width: 20px;
+		height: 20px;
+		margin-top: -2.7rem;
+		margin-left: 1rem;
+	}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+	h3 {
+		padding-top: 1rem;
+	}
+	.navi {
+		background-color: white;
+		height: 15rem;
+		float: left;
+	}
+
+	#bio {
+		display: none;
+	}
+
+	#contact_header {
+	margin: 10rem 3rem 3rem 3rem;
+	}
+
+	#contact_text {
+		margin: 0rem 3rem;
+	}
+
+}
+
+@media only screen and (min-width: 700px) {
+	#about_header {
+		display: none;
+	}
+
+	#about_text {
+		display: none;
+	}
+}
